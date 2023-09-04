@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.dropbtn {
+  transition: all 0.3s ease 0s;
+  color: black;
+  padding: 16px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  color: orange;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: 'Rubik', sans-serif;
+}
+
+button {
+  background-color: rgb(255, 211, 35);
+  border:2px solid rgb(78, 65, 11);
+
+  border-radius: 5px;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.dropdown-content {
+  display: none;
+  font-size: 0.8em;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 400px;
+  overflow: auto;
+  height: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: #262626;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.dropdown-content a:hover {
+  background-color: #d6d6d6;
+  text-decoration: none;
+  color: #262626;
+}
+
+.show {
+  display: block;
+}
+
+.headicon {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  padding: 0 20px 0 40px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.headicon:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+li,
+button {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 1.45em;
+  color: white;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links .template:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.submit-story {
+  font-family: 'Rubik', sans-serif;
+}
+
+.about-btn {
+  background-color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.header {
+  /* box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12); */
+  border-bottom: 3px solid grey;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.submit-story {
+  background-color: #0077cc;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-story:hover {
+  background-color: #005ea6;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
